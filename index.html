@@ -33,6 +33,19 @@
         </script>
     </body> 
 </html>
+
+                window.location.href = "yes.html";
+            }
+            
+            function moveButton() {
+                var button = document.getElementById('noButton');
+                var x = Math.random() * (window.innerWidth - button.offsetWidth - 50);
+                var y = Math.random() * (window.innerHeight - button.offsetHeight - 50);
+                button.style.transform = `translate(${x}px, ${y}px)`;
+            }
+        </script>
+    </body> 
+</html>
             
             function moveButton() {
                 var button = document.getElementById('noButton');
